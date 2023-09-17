@@ -27,9 +27,6 @@ Nous accueillons les contributions, n'hésitez pas à ouvrir une issue ou à pro
 ### Licence
 Ce projet est distribué sous licence MIT. Pour plus d'informations, consultez le fichier `LICENSE`.
 
-### Contact
-Pour toute question, contactez-nous à : [votre adresse email]
-
 ---
 
 ### Prérequis
