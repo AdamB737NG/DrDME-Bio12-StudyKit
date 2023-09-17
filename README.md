@@ -74,9 +74,10 @@ pip install -r requirements.txt
 
 ### Autres prérequis
 
-- **Compte OpenAI**
+- **Compte OpenAI (clé API)**
    
-   Vous aurez besoin d'un compte OpenAI avec une clé API. Si vous n'en avez pas, [inscrivez-vous sur le site d'OpenAI](https://www.openai.com/) pour en obtenir un.
+   Vous aurez besoin d'un compte OpenAI avec une clé API. Si vous n'en avez pas, [inscrivez-vous sur le site d'OpenAI](https://platform.openai.com/docs/api-reference) pour en obtenir une.
+   Voici un tutoriel YouTube sur comment obtenir une clé API OpenAI [Tuto Clé API](https://www.youtube.com/watch?v=EQQjdwdVQ-M).
 
 ### Ressources supplémentaires
 
