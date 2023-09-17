@@ -1,0 +1,5 @@
+streamlit==1.0.0
+python-docx==0.8.11
+transformers==4.11.3
+openai==0.27.0
+clipboard==0.0.4
