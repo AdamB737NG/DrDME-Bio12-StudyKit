@@ -5,7 +5,7 @@ from transformers import GPT2Tokenizer
 import openai
 
 # Configuration OpenAI
-openai.api_key = "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"
+openai.api_key = "ENTER_YOUR_OPENAI_KEY_HERE"
 
 # Fonction pour lire le fichier .docx
 def read_word_file(word_file_path):
