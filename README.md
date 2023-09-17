@@ -76,6 +76,44 @@ pip install -r requirements.txt
    Vous aurez besoin d'un compte OpenAI avec une clé API. Si vous n'en avez pas, [inscrivez-vous sur le site d'OpenAI](https://platform.openai.com/docs/api-reference) pour en obtenir une.
    Voici un tutoriel YouTube sur comment obtenir une clé API OpenAI [Tuto Clé API](https://www.youtube.com/watch?v=EQQjdwdVQ-M).
 
+
+### Lancement de l'application avec Streamlit
+
+Pour lancer l'application, suivez les étapes ci-dessous :
+
+1. Assurez-vous d'avoir satisfait à tous les prérequis et installé toutes les dépendances comme mentionné dans les sections précédentes.
+   
+2. Ouvrez un terminal et naviguez vers le répertoire contenant le fichier `main.py`.
+
+3. Tapez la commande suivante pour lancer l'application Streamlit :
+
+   ```bash
+   streamlit run main.py
+   ```
+
+Bien sûr, voici comment vous pouvez ajouter des instructions pour lancer votre application à l'aide de Streamlit dans votre fichier README.md :
+
+markdown
+Copy code
+### Lancement de l'application avec Streamlit
+
+Pour lancer l'application, suivez les étapes ci-dessous :
+
+1. Assurez-vous d'avoir satisfait à tous les prérequis et installé toutes les dépendances comme mentionné dans les sections précédentes.
+   
+2. Ouvrez un terminal et naviguez vers le répertoire contenant le fichier `main.py`.
+
+3. Tapez la commande suivante pour lancer l'application Streamlit :
+
+   ```bash
+   streamlit run main.py
+   
+Streamlit lancera automatiquement l'application dans votre navigateur web par défaut. Vous devriez voir l'interface utilisateur de l'application. Si le navigateur ne s'ouvre pas automatiquement, ouvrez votre navigateur web et accédez à l'URL affichée dans votre terminal (généralement http://localhost:8501).
+
+Utilisez l'interface utilisateur Streamlit pour interagir avec l'application selon les instructions fournies dans la section Utilisation de ce document.
+
+Nous espérons que vous trouverez cette application utile et facile à utiliser. N'hésitez pas à contribuer au projet en ouvrant des issues ou en proposant des pull requests pour améliorer l'application.
+
 ### Ressources supplémentaires
 
 Si vous êtes nouveau dans le monde de Python ou Streamlit, ces ressources peuvent vous être utiles :
