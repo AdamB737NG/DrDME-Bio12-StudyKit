@@ -1,6 +1,6 @@
 ### Configuration
 
-Ouvrez le fichier `main.py` dans un éditeur de texte et configurez votre clé API OpenAI en modifiant la ligne suivante :
+Ouvrez le fichier `app.py` dans un éditeur de texte et configurez votre clé API OpenAI en modifiant la ligne suivante :
 
 ```python
 openai.api_key = "YOUR_OPENAI_API_KEY_HERE"
@@ -10,7 +10,7 @@ openai.api_key = "YOUR_OPENAI_API_KEY_HERE"
 
 #### Extraction de texte depuis des fichiers Word
 Placez votre fichier `.docx` dans le répertoire approprié.  
-Ouvrez le fichier `main.py` et ajustez le chemin d'accès au fichier Word (variable `word_file_path`).  
+Ouvrez le fichier `app.py` et ajustez le chemin d'accès au fichier Word (variable `word_file_path`).  
 Exécutez le script pour extraire le texte et le sauvegarder dans un fichier `.txt`.
 
 #### Tokenisation du texte
@@ -76,32 +76,13 @@ pip install -r requirements.txt
    Vous aurez besoin d'un compte OpenAI avec une clé API. Si vous n'en avez pas, [inscrivez-vous sur le site d'OpenAI](https://platform.openai.com/docs/api-reference) pour en obtenir une.
    Voici un tutoriel YouTube sur comment obtenir une clé API OpenAI [Tuto Clé API](https://www.youtube.com/watch?v=EQQjdwdVQ-M).
 
-
 ### Lancement de l'application avec Streamlit
 
 Pour lancer l'application, suivez les étapes ci-dessous :
 
 1. Assurez-vous d'avoir satisfait à tous les prérequis et installé toutes les dépendances comme mentionné dans les sections précédentes.
    
-2. Ouvrez un terminal et naviguez vers le répertoire contenant le fichier `main.py`.
-
-3. Tapez la commande suivante pour lancer l'application Streamlit :
-
-   ```bash
-   streamlit run main.py
-   ```
-
-Bien sûr, voici comment vous pouvez ajouter des instructions pour lancer votre application à l'aide de Streamlit dans votre fichier README.md :
-
-markdown
-Copy code
-### Lancement de l'application avec Streamlit
-
-Pour lancer l'application, suivez les étapes ci-dessous :
-
-1. Assurez-vous d'avoir satisfait à tous les prérequis et installé toutes les dépendances comme mentionné dans les sections précédentes.
-   
-2. Ouvrez un terminal et naviguez vers le répertoire contenant le fichier `main.py`.
+2. Ouvrez un terminal et naviguez vers le répertoire contenant le fichier `app.py`.
 
 3. Tapez la commande suivante pour lancer l'application Streamlit :
 
